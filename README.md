@@ -17,3 +17,5 @@ A list of technologies used within the project:
 * This is a simple book shop site . Customer can buy many books in this site simply.
 * This site is secure ! that's why customer can buy any product without information lost.
 * This site's  also design and develop for disability's man.
+* We provide best service for customer.
+* Customer can easily share there;s review we appreciate this !
