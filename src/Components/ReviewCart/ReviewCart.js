@@ -10,7 +10,7 @@ const ReviewCart = ({ review }) => {
                     <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">{name}</h5>
                     <span class="text-md text-gray-600 dark:text-gray-500">Ratings: {ratings}</span>
                     <span class="text-sm text-gray-500 dark:text-gray-400" title={comment}>
-                    {comment.length >260 ? comment.slice(0,260) +'.....Read More' : comment }
+                    {comment.length >225 ? comment.slice(0,225) +'.....Read More' : comment }
                     </span>
 
                 </div>
