@@ -10,6 +10,7 @@ import About from './Components/About/About';
 import NotFound from './Components/NotFound/NotFound';
 import BdAddress from './Components/Contact/BdAddress';
 import UsAddress from './Components/Contact/UsAddress';
+ 
 function App() {
   return (
     <div className="App">
@@ -29,9 +30,8 @@ function App() {
 
         <Route path='/about' element={<About />} />
         <Route path='*' element={<NotFound />} />
-   </Routes>
-
-      
+      </Routes>
+     
     </div>
   );
 }

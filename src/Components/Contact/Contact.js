@@ -5,25 +5,15 @@ const Contact = () => {
   return (
     <section className='px-4 pt-20 pb-24 mx-auto max-w-7xl md:px-2'>
       <div className='flex flex-col justify-center items-center'>
-        <h1 className=' font-mono text-xl text-center md:text-3xl '>
+        <h1 className='text-xl text-center md:text-3xl '>
           Contact Us, Our Office Address Down Below
         </h1>
 
         <div className='flex justify-center items-center'>
-          <Link
-            to='bd-address'
-            className='  py-1 px-3 text-white mt-3 mx-1 bg-cyan-600 w-auto sm:mb-0'
-          >
-            BD Address
-          </Link>
-          <Link
-            to='us-address'
-            className='  py-1 px-3 text-white mt-3 mx-1 bg-cyan-600 w-auto sm:mb-0'
-          >
-            US Address
-          </Link>
+        <Link to='bd-address' type="button" class="py-3 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-400 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">BD Address</Link>
+        <Link to='us-address' type="button" class="py-3 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-400 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">US Address</Link>
         </div>
-        <div className='flex justify-center items-center w-full py-44'>
+        <div className='flex justify-center items-center w-full py-35'>
           <Outlet />
         </div>
       </div>
