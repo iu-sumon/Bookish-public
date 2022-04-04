@@ -4,8 +4,8 @@ import { Line, LineChart, Area, AreaChart, Bar, BarChart, Tooltip, XAxis, YAxis,
 const DashBoard = () => {
     const [data] = useData();
     return (
-        <div className='grid grid-cols-2 justify-center items-center gap-5 w-[80%] mx-auto py-5'>
-            <div className='shadow-lg border-2 rounded-2xl p-3'>
+        <div className='grid md:grid-cols-2 justify-center items-center gap-5 md:w-[80%] mx-auto md:py-5'>
+            <div className='shadow-lg border-2 md:rounded-2xl p-3'>
                 <h1>Month VS Sell</h1>
                 <LineChart width={400} height={300} data={data}>
                     <Line dataKey='month'></Line>
@@ -16,7 +16,7 @@ const DashBoard = () => {
                     <YAxis dataKey="sell" />
                 </LineChart>
             </div>
-            <div className='shadow-lg border-2 rounded-2xl p-3'>
+            <div className='shadow-lg border-2 md:rounded-2xl p-3'>
                 <h1>Investment VS Revenue</h1>
                 <AreaChart width={400} height={300} data={data}>
                     <Area dataKey='investment'></Area>
@@ -27,7 +27,7 @@ const DashBoard = () => {
                     <YAxis dataKey="investment" />
                 </AreaChart>
             </div>
-            <div className='shadow-lg border-2 rounded-2xl p-3'>
+            <div className='shadow-lg border-2 md:odd:rounded-2xl p-3'>
                 <h1>Investment VS Revenue</h1>
                 <BarChart width={400} height={300} data={data}>
                     <Bar dataKey='investment' fill="#8884d8"></Bar>
@@ -38,7 +38,7 @@ const DashBoard = () => {
                     <YAxis dataKey="investment" />
                 </BarChart>
             </div>
-            <div className='shadow-lg border-2 rounded-2xl p-3'>
+            <div className='shadow-lg border-2 md:rounded-2xl p-3'>
                 <h1>Investment VS Revenue</h1>
                 <PieChart width={400} height={300} >
 

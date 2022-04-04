@@ -10,7 +10,7 @@ const BdAddress = () => {
           <h1>Email: contact.bd@gmail.com</h1>
         </div>
         <div>
-          <h1 className='text-2xl'>BANGLADESH OFFICE</h1>
+          <h1 className='md:text-2xl'>BANGLADESH OFFICE</h1>
         </div>
       </div>
     </div>

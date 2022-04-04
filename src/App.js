@@ -10,6 +10,7 @@ import About from './Components/About/About';
 import NotFound from './Components/NotFound/NotFound';
 import BdAddress from './Components/Contact/BdAddress';
 import UsAddress from './Components/Contact/UsAddress';
+import BookShop from './Components/BookShop/BookShop';
  
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
         </Route>
 
         <Route path='/about' element={<About />} />
+        <Route path='/books' element={<BookShop />} />
+        
         <Route path='*' element={<NotFound />} />
       </Routes>
      
