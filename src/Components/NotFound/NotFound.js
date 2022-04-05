@@ -5,7 +5,7 @@ const NotFound = () => {
     return (
         <div>
             <div>
-                <h1 className='text-[200px] font-extrabold text-cyan-500'>404</h1>
+                <h1 className='md:text-[200px] text-5xl font-extrabold text-cyan-500'>404</h1>
                 <p> OPPS! PAGE NOT FOUND </p>
                 <p>Sorry, the page you're looking for doesn't exist.</p>
             </div>
