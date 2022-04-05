@@ -11,9 +11,11 @@ A list of technologies used within the project:
 * [React Router](https://reactrouter.com/docs/en/v6/getting-started/overview): Version 6.0
 * [React Rechart](https://recharts.org/en-US/): Version 2.1.9
 * [React Tailwind](https://tailwindcss.com/docs/guides/create-react-app): Version 3.0.23
+* [React HeroIcon](https://heroicons.com/): Version 1.0.6
 
  ## Features 
 
+* Mainly this site  is customer review site for specific product like book.
 * This is a simple book shop site . Customer can buy many books in this site simply.
 * This site is secure ! that's why customer can buy any product without information lost.
 * This site's  also design and develop for disability's man.
