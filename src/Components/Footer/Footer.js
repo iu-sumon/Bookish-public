@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
 
-        <div className="p-4 w-full text-center bg-white border shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+        <div className="py-4 w-full text-center bg-white border shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700">
             <h5 className="mb-2 font-bold text-gray-900 dark:text-white">BooKish</h5>
             <p className="mb-5  text-gray-500 dark:text-gray-400">Copyright © 2022 All Rights Reserved.</p>
             <div className="justify-center items-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
